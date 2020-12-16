@@ -203,6 +203,14 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.bloc-2-title {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  margin-left: 300px;
+  margin-top: 65px;
+}
+
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -1028,6 +1036,14 @@ h4 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bloc-2-title {
+    margin: 0 auto;
+    width: inherit;
+    margin-top: 45px;
   }
 }
 

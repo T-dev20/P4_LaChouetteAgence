@@ -1051,4 +1051,7 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+  .voffset-lg {
+    margin-top: inherit;
+  }
 }

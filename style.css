@@ -48,6 +48,17 @@ a:hover {
   padding: 100px 50px;
 }
 
+.text_portFolio {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .text_portFolio {
+    width: 98.5%;
+  }
+}
+
 .bloc-md {
   padding: 50px;
 }

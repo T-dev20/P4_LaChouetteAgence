@@ -53,9 +53,35 @@ a:hover {
   text-align: center;
 }
 
+#bloc-7 {
+  margin-top: 5rem;
+}
+
+#bloc-7 h2 {
+  margin-left: 35rem;
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 6px;
+  border-left: rgba(0, 0, 0, 0.5) 2px solid;
+  width: 40%;
+}
+
 @media (max-width: 767px) {
   .text_portFolio {
     width: 98.5%;
+  }
+  #bloc-7 h2 {
+    margin-left: 0rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #bloc-7 h2 {
+    margin-left: 5rem;
+
+    width: 70%;
   }
 }
 
